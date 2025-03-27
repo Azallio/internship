@@ -1,0 +1,173 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  margin-top: 59px;
+  background-color: #dee33e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+h1 {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 0;
+  width: 100%;
+  height: 45px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #fafafa;
+  padding: 16px;
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.logo,
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1rem;
+  background-color: #dee33e;
+  font-weight: 700;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+span {
+    text-align: center;
+}
+
+
+.logo div {
+  width: 197px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 144px;
+}
+
+.login {
+  width: 527px;
+  height: 600px;
+  padding: 40.5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.NameAndLastname {
+    width: 100%;
+    margin-bottom: 16px;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .NameAndLastname input{
+    width: 210px;
+    margin: 0;
+  }
+
+.emailPass {
+  width: 100%;
+  margin-bottom: 16px;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.emailPass input{
+  margin-bottom: 16px;
+}
+
+.accept {
+  margin-bottom: 16px;
+  margin-inline: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.signUpWith {
+  margin-bottom: 16px;
+  margin-inline: 0;
+  color: #718096;
+  display: flex;
+  flex-direction: row;
+}
+
+.signUpWith hr {
+  width: 148px;
+  background-color:#EEEFF2;
+  border: none;
+  border-radius: 15%;
+  size: 1px;
+}
+
+.twoButton {
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.twoButton button {
+  width: 216.5px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #ffffff;
+  border: solid 1px #EEEFF2;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+
+.contentLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
